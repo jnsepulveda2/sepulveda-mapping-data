@@ -1,15 +1,15 @@
-# Mapping Data in Python
-Coursera Lesson 2: Mapping Data to Python
+# Exercise: Saving a Filtered DataFrame of Wines
 
-This repository is part of the Coursera course: [Python, Bash and SQL Essentials for Data Engineering Specialization](https://www.coursera.org/specializations/python-bash-sql-data-engineering-duke) that covers the following topics:
+For this exercise, a dataset of wines was used. The data contains information about the name, grape, region, variety, rating, and notes of 780 wines. The goal was to filter this dataset to obtain only **white wines from California with a rating higher than 90**.
 
-1. Develop data engineering solutions using Python and the Linux environment
-2. Design scripts to connect and query a SQL database using Python
-3. Use a scraping tool to extract data from the web
-4. Setup a provisioned Python project environment
+The exercise involved the following steps:
+1. Loading the dataset into a pandas DataFrame.
+2. Filtering the wines according to the specified criteria.
+3. Serializing the filtered data to store it in a .json file.
+4. Loading the data back from the .json file to ensure it was done correctly.
 
-## Exercise
-For this exercise, you will be using data from the [sample_data/](/../../tree/main/sample_data) and the [exercise.ipynb](/../../tree/main/exercise.ipynb) notebook. The notebook contains pre-written code that you can use to complete the exercise. Please refer to the Coursera instructions for details on how to complete this exercise.
+The Jupyter Notebook containing the exercise is `answer.ipynb`.
 
-## Questions or Issues?
-Please use the [Issues](/../../issues) tab to report any issues or ask questions. Any feedback is welcome!
+Here is the link to the YouTube video:
+
+[![Thumbnail](https://img.youtube.com/vi/6H2No3laa4E/hqdefault.jpg)](https://www.youtube.com/watch?v=6H2No3laa4E)
